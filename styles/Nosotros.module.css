@@ -1,0 +1,12 @@
+.contenido {
+    display: grid;
+    gap: 4rem;
+}
+@media (min-width: 768px) {
+    .contenido {
+        /* repeat(2, 1fr) -> 2 columnas de 1 Fracción cada una
+        */
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+ }
