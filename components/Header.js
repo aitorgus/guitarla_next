@@ -8,9 +8,11 @@ const Header = () => {
           <div className="contenedor">
               {/*Por defecto el src de Image, iniciaría en public */}
               <div className={styles.barra}>
-                  <Link href="/">
-              <Image width={400} height={100} src="/img/logo.svg" alt="logo-guitarra"></Image>
-              </Link>  
+                <Link href="/">
+                      <a>
+                        <Image width={400} height={100} src="/img/logo.svg" alt="logo-guitarra"></Image>
+                      </a>
+                </Link>  
               <nav className={styles.navegacion}>
                   <Link href="/">Inicio</Link>
                   <Link href="/nosotros">Nosotros</Link>
