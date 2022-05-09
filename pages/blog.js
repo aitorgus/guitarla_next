@@ -3,9 +3,8 @@ import Entrada from '../components/Entrada'
 import styles from '../styles/blog.module.css'
 
 const Blog = ({entradas}) => {
-    
-  const url = `${process.env.NEXT_PUBLIC_API_URLL}/blogs`
-  console.log(url)
+  
+  
   return (
      <Layout pagina='Blog'>
       <main className='contenedor'>
