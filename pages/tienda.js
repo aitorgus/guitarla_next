@@ -14,7 +14,8 @@ const Tienda = ({ guitarras }) => {
   )
 }
 export async function getServerSideProps() {
-  const url = `${process.env.API_URL}/guitarras` 
+  {/*Existe un filtro en Strapi '_sort=created_at:desc -> Los ordena de forma descendente */}
+  const url = `${process.env.API_URL}/guitarras?_sort=precio:desc` 
   const respuesta = await fetch(url)
   const guitarras = await respuesta.json()
 

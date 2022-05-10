@@ -1,8 +1,8 @@
 import Guitarra from "./Guitarra"
-
+import styles from "../styles/listado.module.css"
 const Listado = ({guitarras}) => {
   return (
-      <div>
+      <div className={styles.listado}>
           {guitarras.map(guitarra => (
               <Guitarra
                   key={guitarra.url}
