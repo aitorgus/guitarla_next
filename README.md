@@ -1,9 +1,11 @@
+ # Tienda online de Guitarras
+ 
  <p align="center">
-    <img height="300em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/BlogGuitarra.PNG" />
+    <img height="500em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/BlogGuitarra.PNG" />
     
 </p>
  <p align="center">
-    <img height="300em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/TiendaGuitarra.PNG" />
+    <img height="500em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/TiendaGuitarra.PNG" />
     
 </p>
 
