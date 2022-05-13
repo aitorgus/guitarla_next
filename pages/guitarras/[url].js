@@ -15,7 +15,7 @@ const Producto = ({ guitarra }) => {
           <p className={styles.precio}>${precio}</p>
           
           <form className={styles.formulario}>
-            <label>Cantidad</label>
+            <label>Cantidad:</label>
 
             <select>
               <option value=""> --Seleccione--</option>
