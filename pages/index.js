@@ -1,10 +1,14 @@
 import Layout from '../components/Layout'
 import Listado from '../components/Listado'
 import Curso from '../components/Curso'
-export default function Home({guitarras,curso}) {
+import ListadoBlog from '../components/ListadoBlog'
+
+
+export default function Home({ guitarras, curso, entradas }) {
   return (
   
-      <Layout pagina='Inicio'>
+    <Layout pagina='Inicio'
+    guitarra={guitarras[3]}>
         
       <main className='contenedor'>
         <h1 className='heading'>Nuestra colección</h1>
@@ -15,6 +19,10 @@ export default function Home({guitarras,curso}) {
       <Curso
         curso={curso}
       />
+      <section className='contenedor'>
+            <ListadoBlog entradas={entradas} />
+      </section>
+  
       </Layout>
     
   )
@@ -22,16 +30,19 @@ export default function Home({guitarras,curso}) {
 export async function getServerSideProps() {
   const urlGuitarras = `${process.env.API_URL}/guitarras?_sort=precio:desc` 
   const urlCursos = `${process.env.API_URL}/cursos` 
+  const urlBlog = `${process.env.API_URL}/blogs?_limit=3&_sort=created_at:desc` 
 
 /*Con Promise.All, ambas consultas se harán al mismo tiempo, pero en el orden descrito*/
-  const [resGuitarras,resCursos] = await Promise.all([
+  const [resGuitarras,resCursos,resBlog] = await Promise.all([
     fetch(urlGuitarras),
-    fetch(urlCursos)
+    fetch(urlCursos),
+    fetch(urlBlog)
   ])
 
-  const [guitarras,curso] = await Promise.all([
+  const [guitarras,curso,entradas] = await Promise.all([
     resGuitarras.json(),
-    resCursos.json()
+    resCursos.json(),
+    resBlog.json()
   ])
 
 
@@ -39,7 +50,8 @@ export async function getServerSideProps() {
   return {
     props: {
       guitarras,
-      curso
+      curso,
+      entradas
 
     }
   }

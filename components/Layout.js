@@ -2,21 +2,24 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from './Footer'
 
-const Layout = ({children, pagina}) => {
+const Layout = ({children, pagina,guitarra}) => {
   return (
       <div>
           <Head> <title>GuitarLA - {pagina}</title>
           <meta name="description" content="Sitio Web de venta de guitarras"></meta>
           </Head>
 
-          <Header/>
+      <Header
+        guitarra={guitarra}
+      />
           {children}
           
             <Footer/>
-      
-      
       </div>
   )
+}
+Layout.defaultProps = {
+  guitarra: null
 }
 
 export default Layout
