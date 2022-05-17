@@ -31,8 +31,8 @@ jobs:
     - run: npm run export
     
     - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-          with:
+      uses: npm install @jamesives/github-pages-deploy-action
+      with:
             github_token: ${{ secret.GITHUB_TOKEN}}
             branch: gh-pages # The branch the action should deploy to.
             folder: out # The folder the action should deploy.
