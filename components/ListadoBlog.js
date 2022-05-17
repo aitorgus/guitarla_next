@@ -1,5 +1,5 @@
 import Entrada from '../components/Entrada'
-import styles from '../styles/blog.module.css'
+import styles from '../styles/Blog.module.css'
 
 const ListadoBlog = ({entradas}) => {
     return (

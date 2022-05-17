@@ -1,8 +1,11 @@
 {
   "name": "guitarla_next",
   "version": "0.1.0",
+  "homepage": "https://github.com/AGCG1991/guitarla_next",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,6 +13,7 @@
   },
   "dependencies": {
     "next": "12.1.6",
+    "pages": "^0.0.16",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },

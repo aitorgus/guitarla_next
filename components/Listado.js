@@ -1,5 +1,5 @@
 import Guitarra from "./Guitarra"
-import styles from "../styles/listado.module.css"
+import styles from "../styles/Listado.module.css"
 const Listado = ({guitarras}) => {
   return (
       <div className={styles.listado}>
