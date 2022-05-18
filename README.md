@@ -34,12 +34,12 @@
  </p>
  
   <p align="center">
-    <img height="800em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/96718d607cc011d23688e4a41ef9ead343cbd9b9/img/Strapi_Blog.png" />
+    <img height="600em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/96718d607cc011d23688e4a41ef9ead343cbd9b9/img/Strapi_Blog.png" />
  
  </p>
  
   <p align="center">
-    <img height="800em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/96718d607cc011d23688e4a41ef9ead343cbd9b9/img/Strapi_Guitarras.png" />
+    <img height="600em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/96718d607cc011d23688e4a41ef9ead343cbd9b9/img/Strapi_Guitarras.png" />
  
  </p>
     
