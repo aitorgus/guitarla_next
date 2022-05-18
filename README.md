@@ -1,11 +1,21 @@
  # Tienda online de Guitarras
  
  <p align="center">
-    <img height="500em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/BlogGuitarra.PNG" />
+    <img height="500em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/TiendaGuitarra.PNG" />
+    
+</p>
+
+<p align="center">
+    <img height="500em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/TiendaGuitarra.PN" />
+    
+</p>
+
+ <p align="center">
+    <img height="500em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/8a940f58fb94b1ff8c9cd888507afa3a78a4f383/img/GuitarraTienda.png" />
     
 </p>
  <p align="center">
-    <img height="500em" src="https://raw.githubusercontent.com/AGCG1991/AGCG1991.github.io/master/img/TiendaGuitarra.PNG" />
+    <img height="500em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/8a940f58fb94b1ff8c9cd888507afa3a78a4f383/img/GuitarraIndex.png" />
     
 </p>
 
