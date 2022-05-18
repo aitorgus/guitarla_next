@@ -6,9 +6,9 @@ import ListadoBlog from '../components/ListadoBlog'
 
 export default function Home({ guitarras, curso, entradas }) {
   return (
-  
+    
     <Layout pagina='Inicio'
-    guitarra={guitarras[3]}>
+    >
         
       <main className='contenedor'>
         <h1 className='heading'>Nuestra colección</h1>
@@ -19,6 +19,7 @@ export default function Home({ guitarras, curso, entradas }) {
       <Curso
         curso={curso}
       />
+      {/* */}
       <section className='contenedor'>
             <ListadoBlog entradas={entradas} />
       </section>
