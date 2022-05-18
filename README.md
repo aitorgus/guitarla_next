@@ -53,39 +53,22 @@ En construcción...
 
 
 
+# Instalación:
+En primer lugar debes de clonar tu proyecto en local
 
+git clone https://github.com/AGCG1991/guitarla_next.git
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Seguidamente accedemos al proyecto
 
-## Getting Started
+cd guitarla_next
 
-First, run the development server:
+Este proyecto ha sido desarrollado utilizando una librería de React, conocida como "Next-js", para poder arrancar el proyecto, necesitamos por un lado tener instalado "NodeJs" e instalar las dependencias del proyecto, para ello
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+`node install next react react-dom`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Una vez instalada las dependencias, podemos arrancar nuestro proyecto
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+`npm run dev`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Desde el navegador introducimos " http://localhost:3000/ " para poder visualizar el proyecto en local.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
