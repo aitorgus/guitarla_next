@@ -60,7 +60,7 @@ git clone https://github.com/AGCG1991/guitarla_next.git
 
 Seguidamente accedemos al proyecto
 
-cd guitarla_next
+`cd guitarla_next`
 
 Este proyecto ha sido desarrollado utilizando una librería de React, conocida como "Next-js", para poder arrancar el proyecto, necesitamos por un lado tener instalado "NodeJs" e instalar las dependencias del proyecto, para ello
 
