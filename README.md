@@ -12,10 +12,9 @@
 </p>
  
  <p align="center">
-    <img height="500em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/8a940f58fb94b1ff8c9cd888507afa3a78a4f383/img/GuitarraBlog.png" />
+    <img height="400em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/8a940f58fb94b1ff8c9cd888507afa3a78a4f383/img/GuitarraBlog.png" />
     
 </p>
-
 
 
  <p align="center">
