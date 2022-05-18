@@ -1,3 +1,4 @@
+[![deploy-workflow](https://github.com/AGCG1991/guitarla_next/actions/workflows/guitarLA_deploy.yml/badge.svg)](https://github.com/AGCG1991/guitarla_next/actions/workflows/guitarLA_deploy.yml) 
  # Tienda online de Guitarras
  
  </p>
