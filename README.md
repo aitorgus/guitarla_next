@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-    <img height="800em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/2703c78e4221966d4940a91a048ce09af7d4071c/img/EntradablogGuitarra.png" />
+    <img height="500em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/2703c78e4221966d4940a91a048ce09af7d4071c/img/EntradablogGuitarra.png" />
     
 </p>
 
@@ -29,7 +29,7 @@
  </p>
  
  <p align="center">
-    <img height="1000em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/2703c78e4221966d4940a91a048ce09af7d4071c/img/ComprarGuitarra.png" />
+    <img height="500em" src="https://github.com/AGCG1991/AGCG1991.github.io/blob/2703c78e4221966d4940a91a048ce09af7d4071c/img/ComprarGuitarra.png" />
  
  </p>
     
