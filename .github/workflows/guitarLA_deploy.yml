@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2 # [C]
       - uses: actions/setup-node@v2 # [D]
         with:
-          node-version: '12'
+          node-version: '16.15'
       - uses: actions/cache@v2 # [H]
         with:
          path: ${{ github.workspace }}/.next/cache
