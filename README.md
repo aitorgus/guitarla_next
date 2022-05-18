@@ -56,7 +56,7 @@ En construcción...
 # Instalación:
 En primer lugar debes de clonar tu proyecto en local
 
-git clone https://github.com/AGCG1991/guitarla_next.git
+`git clone https://github.com/AGCG1991/guitarla_next.git`
 
 Seguidamente accedemos al proyecto
 
